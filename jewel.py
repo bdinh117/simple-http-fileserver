@@ -106,7 +106,7 @@ class Jewel:
                     maybe_readable.remove(sock)
                 if (sock in maybe_writable):
                     maybe_writable.remove(sock)
-                del inbox[sock]
+                #del inbox[sock]
                 sock.close()
 
 
