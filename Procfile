@@ -1,1 +1,1 @@
-web: python jewel.py $PORT stuff
+web: python jewel.py 80 stuff
